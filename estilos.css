@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #fce5cd;
+    background-image: url('logo-sin-fondo.png');
+    background-repeat: repeat;
+    background-size: 150px;
+    margin: 0;
+    padding: 1rem;
+    color: #5a2e00;
+}
+
+.logo {
+    background-image: url('logo-sin-fondo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem auto;
+}
+
+h1 {
+    text-align: center;
+    color: #b45f06;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.boton {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
